@@ -7,22 +7,33 @@
  Template:       Divi
  Version:        1.0.0
 */
- 
- 
+
+
 /* =Theme customization starts here
 ------------------------------------------------------- */
 
 .seta {
-    position: absolute;
-    padding: 0.3rem; /* Arrow size */
-            box-shadow: 1px -1px 0 1px inset;
-    -webkit-box-shadow: 2px -2px inset;
-    border: solid transparent;
-    border-width: 0 0 2rem 2rem;
-    transition: 0.2s;
-    top: -1rem;
-    left: 0.7rem;
-  }
-  
-  .seta-baixo { transform:rotate(-45deg) }
+        position: absolute;
+        padding: 0.3rem;
+        /* Arrow size */
+        box-shadow: 1px -1px 0 1px inset;
+        -webkit-box-shadow: 2px -2px inset;
+        border: solid transparent;
+        border-width: 0 0 2rem 2rem;
+        transition: 0.2s;
+        top: -1rem;
+        left: 0.7rem;
+}
 
+.seta-baixo {
+        transform: rotate(-45deg)
+}
+
+body {
+        background-position: top center;
+        background-repeat: repeat;
+        background-image: url(bg-papel.jpg) !important;
+        height: 100%;
+        width: 100%;
+        background-size: 100%;
+}
