@@ -37,3 +37,49 @@ body {
         width: 100%;
         background-size: 100%;
 }
+
+.gwQkbo {
+    width: 222px;
+    height: 222px;
+}
+
+.fXPEkt {
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row nowrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 222px;
+    min-width: 0px;
+    max-width: none;
+    height: 222px;
+    min-height: 0px;
+    max-height: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: visible;
+    color: unset;
+    background-color: rgb(255, 255, 255);
+    background-image: unset;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: unset;
+    font-size: unset;
+    border-radius: 50%;
+    border: none;
+    box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
+    z-index: 1;
+    position: absolute;
+    inset: auto auto -25px;
+    opacity: 1;
+    float: none;
+}
+
+.eLZoDZ {
+        width: calc(100% - 10px);
+        height: calc(100% - 10px);
+        border-radius: 50%;
+        object-fit: cover;
+}
